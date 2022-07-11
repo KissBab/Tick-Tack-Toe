@@ -121,14 +121,23 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun buttonDisabled() {
+        val button1 = findViewById<View>(R.id.button1) as Button
         button1.isEnabled = false
+        val button2 = findViewById<View>(R.id.button2) as Button
         button2.isEnabled = false
+        val button3 = findViewById<View>(R.id.button3) as Button
         button3.isEnabled = false
+        val button4 = findViewById<View>(R.id.button4) as Button
         button4.isEnabled = false
+        val button5 = findViewById<View>(R.id.button5) as Button
         button5.isEnabled = false
+        val button6 = findViewById<View>(R.id.button6) as Button
         button6.isEnabled = false
+        val button7 = findViewById<View>(R.id.button7) as Button
         button7.isEnabled = false
+        val button8 = findViewById<View>(R.id.button8) as Button
         button8.isEnabled = false
+        val button9 = findViewById<View>(R.id.button9) as Button
         button9.isEnabled = false
     }
 }
